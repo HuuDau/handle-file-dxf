@@ -1,0 +1,69 @@
+.contentPhase {
+
+    .titleContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 36px;
+        padding: 0 24px 0 15px;
+        color: #212529;
+        font-size: 16px;
+        border-bottom: 1px solid #BAC5D5;
+
+        .rightTitle {
+            .styleText {
+                color: #0073D2;
+                text-decoration: underline;
+            }
+
+            font-size: 16px;
+
+            .actionDiv {
+                display: flex;
+                gap: 62px;
+
+                .btn {
+                    color: #fff;
+                    background: #437EC4;
+                    min-width: 94px;
+                }
+            }
+        }
+    }
+
+    .bodyPhaseContent {
+        display: flex;
+        padding: 0 15px;
+
+        .leftBody {
+            display: flex;
+
+            .element {
+                min-width: 190px;
+                text-align: left;
+                padding-top: 6px;
+                padding-bottom: 8px;
+                color: #212529;
+                font-size: 16px;
+
+                .contentLeft {
+                    min-height: 35px;
+
+                    .imageAvt {
+                        width: 45px;
+                        height: 35px;
+                        object-fit: contain;
+                    }
+
+                }
+            }
+        }
+
+        .rightBody {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}

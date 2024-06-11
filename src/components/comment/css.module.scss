@@ -1,0 +1,29 @@
+.containerComment {
+    background-color: rgba($color: #fff, $alpha: 1);
+    padding: 15px 13px 0 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .wrapListChat {
+        height: 122px;
+        overflow-y: auto;
+
+        .listComment {
+
+            display: flex;
+            flex-direction: column;
+
+
+            .rowComment {
+                height: 60px;
+                display: flex;
+                gap: 21px;
+                align-items: center;
+                color: #212529;
+                font-size: 14px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,52 @@
+ .headerComment {
+     height: 40px;
+     border-bottom: 1px solid #CFD6E2;
+     display: flex;
+     // justify-content: center;
+     align-items: flex-end;
+
+     .listTab {
+         position: relative;
+         z-index: 1;
+         display: flex;
+         gap: 4px;
+         transform: translateY(1px);
+         // background-color: red;
+         cursor: pointer;
+
+         .historyTab {
+             border: 1px solid #1677FF !important;
+             color: #1677FF;
+         }
+
+         .item {
+             padding: 8px 12px;
+             font-size: 16px;
+             border-radius: 6px 6px 0px 0px;
+             border: 1px solid #CFD6E2;
+             background-color: #F8F9FB;
+             color: #000000;
+             transition: all 0.4s;
+             font-weight: 500;
+             line-height: 24px;
+             // &:hover {
+             //     background-color: #fff;
+             //     color: #1677FF;
+             //     border-bottom: none;
+             // }
+         }
+
+         .active {
+             padding: 8px 12px;
+             font-size: 16px;
+             line-height: 24px;
+             border-radius: 6px 6px 0px 0px;
+             border-left: 1px solid #CFD6E2;
+             border-top: 1px solid #CFD6E2;
+             border-right: 1px solid #CFD6E2;
+             background-color: #fff;
+             font-weight: 500;
+             color: #1677FF;
+         }
+     }
+ }

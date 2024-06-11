@@ -1,0 +1,26 @@
+.privateLayout {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+
+    .right {
+        width: 220px;
+        color: aliceblue;
+        background-color: black;
+    }
+
+    .contentBody {
+        // background-color: red;
+        flex: 1;
+    }
+}
+
+.lay {
+    min-height: 100vh;
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+    color: white;
+}

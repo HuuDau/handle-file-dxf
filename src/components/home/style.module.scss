@@ -1,0 +1,87 @@
+.home {
+
+    // background: url('./tre.jpg');
+    // color: blue;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .forDetail {
+            display: flex;
+
+            .line {
+                width: 57px;
+
+            }
+
+            .oneEle {
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 32px;
+                    top: 0;
+                    width: 2px;
+                    height: 62px;
+                    background-color: #CFD6E2;
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 23px;
+                    top: 62px;
+                    width: 32px;
+                    height: 2px;
+                    background-color: #CFD6E2;
+                }
+            }
+
+            .twoEle {
+                position: relative;
+
+                .threeLine {
+
+                    position: absolute;
+                    left: 23px;
+                    top: 192px;
+                    width: 32px;
+                    height: 2px;
+                    background-color: #CFD6E2;
+
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    right: 32px;
+                    top: 0;
+                    width: 2px;
+                    height: 192px;
+                    background-color: #CFD6E2;
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: 23px;
+                    top: 62px;
+                    width: 32px;
+                    height: 2px;
+                    background-color: #CFD6E2;
+                }
+            }
+
+
+
+            .containerDetail {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    }
+}

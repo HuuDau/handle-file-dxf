@@ -1,0 +1,101 @@
+.customModal {
+    :global {
+        .ant-modal-content {
+            padding: 0 !important;
+        }
+
+        .ant-modal-title {
+            height: 42px;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+            border-bottom: 1px solid #D6D9E0;
+        }
+    }
+
+    .content {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .head {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .inputAnt {
+                border-radius: 4px;
+                height: 35px;
+                border: 1px solid #D6D9E0;
+                // border: 1px solid red;
+            }
+
+            .btnWrap {
+                display: flex;
+                justify-content: flex-end;
+
+                .btn {
+                    min-width: 94px;
+                    color: #fff;
+                    background-color: #437EC4;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        .tableUser {
+            border: 1px solid #E9ECEF;
+            border-radius: 4px;
+            color: #212529;
+
+            .title {
+                height: 36px;
+                background-color: #E9ECEF;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+            .row {
+                border-top: 1px solid #E9ECEF;
+                display: flex;
+                padding: 6px 15px;
+                align-items: center;
+                gap: 15px;
+
+
+                .item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 16px;
+                }
+
+                .id {
+                    width: 90px;
+                }
+
+                .name {
+                    width: 80px;
+                }
+
+                .role {
+                    width: 138px;
+                }
+
+                .status {
+                    width: 80px;
+                }
+
+                .date {
+                    width: 126px;
+                }
+
+                .action {
+                    flex: 1;
+                }
+
+            }
+        }
+    }
+}
